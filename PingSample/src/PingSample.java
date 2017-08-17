@@ -5,7 +5,7 @@ public class PingSample
 {
 	public static void main(String[] args) throws UnknownHostException, IOException 
 	{
-	    String ipAddress = "192.168.11.161";
+	    String ipAddress = "192.168.11.163";
 	    InetAddress inet = InetAddress.getByName(ipAddress);
 
 	    System.out.println("Sending Ping Request to " + ipAddress);
